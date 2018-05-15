@@ -1,6 +1,6 @@
 
 title: Hower Resume
-url: 'http://webjeda.com'
+url: 'https://whatwhyhow7.github.io/'
 # baseurl: '/online-cv' #change it according to your repository name
 
 
@@ -13,17 +13,16 @@ url: 'http://webjeda.com'
 
 
 #Profile information
-name: Wang Wenhao
-tagline: Full Stack Developer
+name: 王文豪
+tagline: 前端工程师
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
 email: wangwenhao.rar@gmail.com
-phone: 012 345 6789
-website: blog.webjeda.com #do not add http://
-linkedin: 文豪-王-47718a132
+phone: 188-1177-8915
 github: whatwhyhow7
-twitter: '@webjeda'
+website: whatwhyhow7.github.io #do not add http://
+linkedin: 文豪-王-47718a132
 
 
 # Tracker
