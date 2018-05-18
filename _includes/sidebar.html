@@ -12,10 +12,6 @@
                 <li class="birthday"><i class="fa fa-calendar"></i>{{site.birthday}}</li>
             {% endif %}
             
-            {% if site.email %}
-                <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
-            {% endif %}
-            
             {% if site.phone %}
                 <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
             {% endif %}
@@ -24,6 +20,10 @@
                 <li class="wechat"><i class="fa fa-wechat"></i><a href="weixin://">{{site.wechat}}</a></li>
             {% endif %}
             
+            {% if site.email %}
+                <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
+            {% endif %}
+
             {% if site.website %}
                 <li class="website"><i class="fa fa-globe"></i><a href="https://{{site.website}}" target="_blank">{{site.website}}</a></li>
             {% endif %}
@@ -35,7 +35,7 @@
         </ul>
     </div>
     {% include education.html %}
-    {% include language.html %}
+    {% include award.html %}
     {% include interests.html %}
 
 </div>
