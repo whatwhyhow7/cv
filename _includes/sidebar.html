@@ -1,8 +1,8 @@
 <div class="sidebar-wrapper">
     <div class="profile-container">
         <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" alt="profile picture" />
-        <h1 class="name">{% if site.name %}{{site.name}}{% else %}Alan Doe{% endif %}</h1>
-        <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Full Stack Developer{% endif %}</h3>
+        <h1 class="name">{% if site.name %}{{site.name}}{% endif %}</h1>
+        <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% endif %}</h3>
     </div>
     
     <div class="contact-container container-block">
@@ -18,6 +18,10 @@
             
             {% if site.phone %}
                 <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
+            {% endif %}
+
+            {% if site.wechat %}
+                <li class="wechat"><i class="fa fa-wechat"></i><a href="weixin://">{{site.wechat}}</a></li>
             {% endif %}
             
             {% if site.website %}
