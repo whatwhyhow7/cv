@@ -32,6 +32,10 @@
                 <li class="github"><i class="fa fa-github"></i><a href="https://github.com/{{site.github}}" target="_blank">github.com/{{site.github}}</a></li>
             {% endif %}
             
+            {% if site.pdf %}
+                <li class="github"><i class="fa fa-file"></i><a href="{{site.baseurl}}/assets/pdf/{{ site.pdf }}">Download Online CV</a></li>
+            {% endif %}
+            
         </ul>
     </div>
     {% include education.html %}
