@@ -3,14 +3,12 @@ title: Hower Resume
 url: 'https://whatwhyhow7.github.io/'
 # baseurl: '/online-cv' #change it according to your repository name
 
-
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
 #style: styles-2
 #style: styles-3
 #style: styles-4
 #style: styles-5
 #style: styles-6
-
 
 #Profile information
 name: 王文豪
@@ -19,14 +17,13 @@ pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and pro
 
 #sidebar links
 birthday: 1989.11.07
-email: wangwenhao.rar@gmail.com
-phone: 188-1177-8915
 wechat: 806231492
+phone: 188-1177-8915
+email: wangwenhao.rar@gmail.com
 github: whatwhyhow7
 website: whatwhyhow7.github.io #do not add http://
 linkedin: 文豪-王-47718a132
-pdf: 个人简历_王文豪_18811778915.pdf
-
+pdf: 前端工程师_王文豪_18811778915.pdf
 
 # Tracker
 analytics: UA-83979019-1
