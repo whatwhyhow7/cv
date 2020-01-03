@@ -10,4 +10,10 @@
 
 使用 `jekyll` 搭建并借用了以下主题模板，特此申明并感谢：
 
-- [https://themes.3rdwavemedia.com/](https://themes.3rdwavemedia.com/)
+- [https://themes.3rdwavemedia.com/demo/orbit/](https://themes.3rdwavemedia.com/demo/orbit/)
+
+## 本地启动
+
+```shell
+jekyll serve -w
+```
