@@ -1,6 +1,6 @@
 # whatwhyhow7's resume
 
-这是 [@whatwhyhow7](https://whatwhyhow7.github.io/resume) 的个人在线简历。
+这是 [@whatwhyhow7](https://whatwhyhow7.github.io/resume) 的个人在线简历 🧾。
 
 ## 简要说明
 
